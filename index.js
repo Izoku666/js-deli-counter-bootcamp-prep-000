@@ -2,7 +2,7 @@
 function takeANumber(line , name)
 {
     line.length++;
-    //line[line.length - 1] = name;
+    line[line.length] = name;
     return `Welcome, ${name}. You are number ${line.length} in line.`; 
 }
 
