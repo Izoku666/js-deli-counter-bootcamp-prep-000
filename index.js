@@ -7,13 +7,15 @@ function takeANumber(line , name) // thought this was vastly more complex than i
 
 function nowServing(line)
 {
-  if(line.length < 0){
+  var currentCustomer = line[0];
+  if(line.length < 0)
+  {
     line.shift();
-    return `Currently serving ${line[0]}.`;
+    return `Currently serving ${currentCustomer}.`
   }
   
   else
   {
-    return "There is nobody waiting to be served!";
+      return "There is nobody waiting to be served!"
   }
 }
