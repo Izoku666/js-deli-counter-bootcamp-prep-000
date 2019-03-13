@@ -28,6 +28,10 @@ function currentLine(line)
   }
   else
   {
-    
+    var newString = "";
+      for(let i = 0; i < line.length; i++)
+      {
+        newString += line
+      }
   }
 }
