@@ -33,7 +33,7 @@ function currentLine(line)
       {
         var pos = i + 1;
         var newNewString = `${pos}. ${line[i]} `
-        newString += pos + line[i];
+        newString += newNewString;
       }
       return newString;
   }
