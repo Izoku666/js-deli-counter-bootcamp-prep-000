@@ -5,4 +5,8 @@ function takeANumber(line , name) // thought this was vastly more complex than i
     return `Welcome, ${name}. You are number ${line.length} in line.`; 
 }
 
-
+function nowServing(line)
+{
+  line.shift();
+  return line[0];
+}
