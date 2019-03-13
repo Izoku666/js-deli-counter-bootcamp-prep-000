@@ -11,7 +11,7 @@ function nowServing(line)
   if(line.length < 0)
   {
     line.shift();
-    return `Currently serving ${currentCustomer}.`
+    return `Currently serving ${currentCustomer}.`;
   }
   
   else
