@@ -14,7 +14,7 @@ function nowServing(line)
   }
   else
   {
-    return `Currently serving ${line[0]}.`;
+    return `Currently serving ${line[1]}.`;
   }
 }
 
