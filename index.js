@@ -34,7 +34,7 @@ function currentLine(line)
         var pos = i + 1;
         var newNewString = ` ${pos}. ${line[i]},`
         if(i === line.length - 1)
-          newNewString = `${pos}. ${line[i]}`
+          newNewString = ` ${pos}. ${line[i]}`
               newString += newNewString;
         
       }
