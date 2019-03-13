@@ -8,7 +8,7 @@ function takeANumber(line , name) // thought this was vastly more complex than i
 function nowServing(line)
 {
   var currentCustomer = line[0];
-  if(line.length < 1)
+  if(line.length < 0)
   {
     line.shift();
     return `Currently serving ${currentCustomer}.`;
