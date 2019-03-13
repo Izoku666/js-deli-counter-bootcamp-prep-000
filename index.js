@@ -3,6 +3,6 @@ function takeANumber(line , name)
 {
     line.length++;
     line[line.length] = name;
-    return `Welcome, ${name}. You are number ${line.length} in line.`; 
+    return `Welcome, ${name}. You are number ${line.length - 1} in line.`; 
 }
 
