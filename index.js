@@ -14,6 +14,6 @@ function nowServing(line)
   
   else
   {
-    return "There is nobody waiting in line, "
+    return "There is nobody waiting to be served!";
   }
 }
