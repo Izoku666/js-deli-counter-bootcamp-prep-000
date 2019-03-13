@@ -28,10 +28,11 @@ function currentLine(line)
   }
   else
   {
-    var newString = "";
+    var newString = "The line is currently:"
       for(let i = 0; i < line.length; i++)
       {
-        newString += line
+        var pos = i + 1;
+        newString += pos + line[i];
       }
   }
 }
