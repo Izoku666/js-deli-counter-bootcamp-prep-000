@@ -9,7 +9,7 @@ function nowServing(line)
 {
   if(line.length < 0){
     line.shift();
-    return line;
+    return `Currently serving ${line[0]}.`;
   }
   
   else
