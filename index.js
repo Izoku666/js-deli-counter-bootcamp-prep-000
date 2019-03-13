@@ -34,5 +34,6 @@ function currentLine(line)
         var pos = i + 1;
         newString += pos + line[i];
       }
+      return newString;
   }
 }
